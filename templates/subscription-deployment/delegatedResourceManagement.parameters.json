@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "OSOMCO CSP Managed Subscription"
+        },
+        "mspOfferDescription": {
+            "value": "OSOMCO CSP Managed Subscription"
+        },
+        "managedByTenantId": {
+            "value": "11e34461-47a6-46c4-a3ca-720f77590ccc"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "b1e8c64e-5e7c-4cf7-b402-0667b92ae605",
+                    "principalIdDisplayName": "OSOMCO CSP Azure Support - Contributor",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                }                
+            ]
+        }
+    }
+}
