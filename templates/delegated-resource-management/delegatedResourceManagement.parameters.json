@@ -3,37 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspOfferName": {
-            "value": "Relecloud Managed Services"
+            "value": "OSOMCO CSP Managed Subscription"
         },
         "mspOfferDescription": {
-            "value": "Relecloud Managed Services"
+            "value": "OSOMCO CSP Managed Subscription"
         },
         "managedByTenantId": {
-            "value": "<insert managing tenant id>"
+            "value": "11e34461-47a6-46c4-a3ca-720f77590ccc"
         },
         "authorizations": {
             "value": [
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
-                    "principalIdDisplayName": "PIM_Group" 
-                }, 
-                { 
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244", 
-                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
-                    "principalIdDisplayName": "PIM_Group"
-                    
-                },
                 {
-                    "principalId": "ee8f6d35-15f2-4252-b1b8-591358e8a244",
-                    "principalIdDisplayName": "PIM_Group",
-                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
-                    "delegatedRoleDefinitionIds": [
-                        "b24988ac-6180-42a0-ab88-20f7382dd24c",
-                        "92aaf0da-9dab-42b6-94a3-d43ce8d16293"
-                    ]
-                }
-                    ]
+                    "principalId": "b1e8c64e-5e7c-4cf7-b402-0667b92ae605",
+                    "principalIdDisplayName": "OSOMCO CSP Azure Support - Contributor",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
                 }                
+            ]
         }
+    }
 }
