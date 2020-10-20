@@ -10,7 +10,7 @@ The templates shown below can be used to [onboard a customer to Azure Lighthouse
 
 Name | Description   | Auto-deploy   | 
 -----| ------------- |--------------- |
-| Azure Lighthouse - Subscription Deployment |onboard a *subscription* | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fosomco%2FOSOMCO-AzLightHouse%2Fmaster%2Ftemplates%2Fsubscription-deployment%2FsubscriptionLevelDeployment.json) 
+| Azure Lighthouse - Subscription Deployment |onboard a *subscription* | [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fosomco%2FOSOMCO-AzLightHouse%2Fmaster%2Ftemplates%2Fdelegated-resource-management%2FdelegatedResourceManagement.json) 
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
